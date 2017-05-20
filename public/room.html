@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Room</title>
+        
+        <link href = '/css/styles.css' type = 'text/css' rel = 'stylesheet' />
+    </head>
+    
+    <body>
+        <div id='display'>
+            <div id='chats'>
+                <div id='inputs'>
+                    <input type='text' id='msg' placeholder ='Type your message here'/>
+                    <button id='send'>Send</button>
+                    <div id='status'></div>
+                </div>
+
+                <div id='allchatRooms'>
+                    <div id='disp'></div>
+                </div>
+            </div>
+        </div>
+                
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/scripts/roombundle.js"></script>
+    </body>
+</html>

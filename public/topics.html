@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <title>Topics</title>
+        
+        <link href = '/css/styles.css' type = 'text/css' rel = 'stylesheet' />
+    </head>
+    
+    <body>
+        <div id='display'>
+            <div id='topics'>
+                <div id='inputs'>
+                    <input type='text' placeholder='Topic Title' id='room' />
+                    <input type='text' placeholder='Topic Description' id='description' />
+                    <input type='test' placeholder='Enter custom IMG URL' id='cusURL' disabled='true' />
+
+                    <select id='option'>
+                        <option value="blank"></option>
+                        <option value="opinion">Opinion</option>
+                        <option value="question">Question</option>
+                        <option value="help">Help</option>
+                        <option value="cust">Custom</option>
+                    </select>
+                    <button id='create'>Create</button>
+                </div>
+
+                <div id='allTopics'>
+                    <div id='allRooms'></div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="/scripts/indexbundle.js"></script>
+    </body>
+</hmtl>
